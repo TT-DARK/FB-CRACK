@@ -76,6 +76,7 @@ for xd in range(10000):
     l='Mobile Safari/537.36'
     uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
     ugen.append(uaku2)
+    os.system('xdg-open https://github.com/TT-DARK')
 logo = ("""
 
 \x1b[1;93m⡏⠉⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿
@@ -115,12 +116,14 @@ class Main:
         print(" \033[1;97m[0] Exit")
         print("\033[38;5;46m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;32m•\033[1;35m•\033[1;34m•\033[1;97m•\033[1;33m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[38;5;196m•\033[1;32m•\033[1;97m•\033[1;35m•\033[1;34m•\033[1;33m•\033[38;5;46m•\033[1;97m•")
         Snigdho =input(" [√] Choose : ")
+        os.system('xdg-open https://www.facebook.com/tafifrchoyon?mibextid=ZbWKwL')
         if Snigdho in ["1", "01"]:
             v1()
         if Snigdho in ["2", "02"]:
             v2()
         if Snigdho in ["3","03"]:
             v3()
+            os.system('xdg-open https://www.facebook.com/tafifrchoyon?mibextid=ZbWKwL')
         if Snigdho in [" 0", "00"]:
             exit()
         else:
